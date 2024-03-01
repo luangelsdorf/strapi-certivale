@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "Informações de Contato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.contact-info",
+      "required": true
+    }
+  }
+}

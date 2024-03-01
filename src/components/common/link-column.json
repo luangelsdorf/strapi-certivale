@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_link_columns",
+  "info": {
+    "displayName": "LinkColumn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link",
+      "required": true,
+      "min": 1,
+      "max": 4
+    }
+  }
+}

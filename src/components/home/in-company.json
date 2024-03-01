@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_in_companies",
+  "info": {
+    "displayName": "InCompany",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.asd",
+      "required": true,
+      "max": 3,
+      "min": 3
+    }
+  }
+}

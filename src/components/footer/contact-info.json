@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_contact_infos",
+  "info": {
+    "displayName": "ContactInfo"
+  },
+  "options": {},
+  "attributes": {
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.social-icon",
+      "required": true,
+      "max": 4,
+      "min": 1
+    },
+    "whatsapp": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

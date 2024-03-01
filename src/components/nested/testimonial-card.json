@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nested_testimonial_cards",
+  "info": {
+    "displayName": "TestimonialCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "integer",
+      "required": true,
+      "default": 5,
+      "max": 5,
+      "min": 0
+    }
+  }
+}

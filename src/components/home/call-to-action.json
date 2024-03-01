@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_call_to_actions",
+  "info": {
+    "displayName": "CallToAction"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "call": {
+      "type": "string",
+      "required": true
+    },
+    "instruction": {
+      "type": "text",
+      "required": true
+    },
+    "qrCode": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

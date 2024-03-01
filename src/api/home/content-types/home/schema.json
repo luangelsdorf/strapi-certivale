@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.banner",
+      "required": true
+    },
+    "products": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.products",
+      "required": true
+    },
+    "inCompany": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.in-company",
+      "required": true
+    },
+    "history": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.history",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonials",
+      "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.faq",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.call-to-action",
+      "required": true
+    }
+  }
+}
